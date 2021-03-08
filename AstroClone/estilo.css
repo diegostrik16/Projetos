@@ -1,0 +1,300 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+}
+nav{
+	background: #2f2f1e;
+	padding: 8px 30px;
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	
+
+}
+
+
+
+.espnav {
+	margin-right: 25px;
+	text-decoration: none;
+	color: orange;
+	padding-top: 6px;
+}
+.containernav {
+	display: flex;
+	height: 45px;
+}
+.login{
+	margin-left: 280px;	
+
+}
+
+.label{
+	color: white;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.header1{
+	height: 800px;
+	
+}
+ 
+
+.baixologo2{
+    margin: 0px auto;
+    display: block;
+    width: 1200px;
+    height: 900px;
+	
+
+}
+.empresa {
+	margin-left: 20px;
+	display: block;
+    color: #0090CD;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: lighter;
+}
+.envie {
+
+    height: 280px;
+    text-align: center;
+    background-color: #ededed;
+    padding-top: 15px;
+    float: right;
+    margin-top: 30px;
+    width: 300px;
+    margin-right: 60px;
+
+}
+#enviecurriculo {
+	width: 280px;
+	height: 340px;
+	text-align: center;
+	margin: 0px auto;
+	color: #060202;
+}
+.form{
+	word-break: break-word;
+	margin: 5px auto 10px auto;
+	width: 100%
+}
+.leiamais{
+	width: 62%;
+	height: 59px;
+	padding-top: 15px;
+	border: 1px solid black;
+	text-align: center;
+	color: black;	
+}
+.nossafrotapai {
+	width: 1350px;
+	height: 297px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.fotosnossafrota{
+	width: 122.5px;
+	height: 122.7px;
+	float: left;
+}
+.footerpai{               /*   aqui  começa o footer pai    */
+	width: 1350px;
+	height: 258px;
+	background: #3e3e28;
+	margin: 0px auto;
+}
+.footersec{
+	width: 1080px;
+	height:197px;
+	margin: 0px auto;
+}
+.footerter{
+	width: 320px;
+	height: 100px;
+	float: left;
+	margin-top: 12px;
+	padding-right: 18px;
+}
+.footerquar{
+	width: 320px;
+	height: 100px;
+	float: left;
+	margin-top: 12px;
+	padding-right: 18px;
+	margin-left: 20px;
+}
+
+.footerquin{
+	width: 370px;
+	height: 150px;
+	float: right;
+	margin-top: 12px;
+	padding-right: 18px;
+	
+	}	
+
+.imgfooter{
+	width: 100px;
+	height: 80px;
+	
+}
+#textofooterter{
+	width: 150px;
+	height: 95px;
+	float: right;
+	margin-left: 12px;
+	font-family: helvetica, arial, sans-serif;
+}
+#textofooterquin {
+	color: white;
+	text-align: right;
+	float: right;
+	font-size: 12px;
+	padding-top: 10px;
+	font-family: helvetica, arial, sans-serif;
+}
+.footercopyright{
+	width: 100%;
+	height:61px;
+	background: #0090cd;
+	padding-top: 15px;
+}
+.internofootercop{
+	height: 30px;
+	width: 1080px;
+	text-align: center;
+	margin: 0px auto;
+}
+.internofooter_cop_left{
+	width: 49%;
+    float: left;
+    font-family: Helvetica, sans-serif;
+    color: #FFf;
+    height: 20px;
+    margin-top: 5px;
+    text-align: left;
+    font-weight: lighter;
+}
+.internofooter_cop_right{
+	width: 49%;
+    float: right;
+    font-family: Helvetica, sans-serif;
+    color: #FFf;
+    height: 20px;
+    font-weight: lighter;
+}
+				 
+					/*   aqui termina o footer pai    */
+
+					/*   aqui começa a \página a empresa\    */
+
+.mapspai{
+ height: 1250px;
+ width: 1150px;
+display: block;
+margin: 10px auto 10px auto;
+}
+.mapsfilho{
+	width: 500px;
+	height: 450px;
+	margin: 5px auto 5px auto;
+}
+.pmaps{
+	font-family: helvetica, arial, sans-serif;
+    line-height: 21px;
+    color: #4f4f4f;
+    margin-top: 20px;
+}				
+					/*   aqui termina a página \a empresa\    */
+
+					/*   aqui COMEÇA a página \SERVIÇOS\    */
+.serviços{
+	width: 500px;
+	height: 300px;
+	margin:10px auto 10px auto;
+}
+.descrição_serviços {
+	width: 980px;
+	height: 500px;
+	margin:0px auto;
+	text-align: left;
+}
+.texto_site_serviços{
+	border-left: 3px solid #4f4f4f;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: lighter;
+}					/*   aqui TERMINA a página \SERVIÇOS\    */
+
+					/*   aqui COMEÇA a página \CONTATO\    */
+
+.contato{
+	width: 740px;
+	height: 586px;
+	display: block;
+	margin:10px 100px;
+}
+.contatofilho{
+  width: 200px;
+  height: 140px;
+  margin: 0px auto;
+
+}
+.basedeapoio{
+	width: 1300px;
+	height: 600px;
+	margin: 20px 20px;
+	display: flex;
+
+}
+.basedeapoiofilho{
+	width: 400px;
+	height: 589px;
+	margin-right: 15px;
+}
+#texto_base_apoio{
+	color: #0090CD;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: lighter;
+}
+.forms_contato{
+	width: 740px;
+	height: 450px;
+	margin: 0px auto;
+	text-align: center;
+}
+.forms_contato_filho{
+text-align: left;
+}
+.post{
+	font-style: italic;
+    margin-bottom: 18px;
+}
+					/*   aqui TERMINA a página \CONTATO\    */
+					/*   aqui COMEÇA a página \FROTA\    */
+
+.frota{
+	width: 1080px;
+	height: 1440px;
+	margin: 0px auto;
+}
+.frotafilho{
+	float: left;
+	padding-top: 15px;
+	padding-left: 60px;
+}
