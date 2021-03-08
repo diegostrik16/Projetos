@@ -1,0 +1,22 @@
+.projetos{
+	width: 100%;
+	height: 520px;
+	border:1px solid blue;
+
+}
+.projeto_foto{
+	width: 1349;
+	height: 80px;
+	margin: 0px auto;
+}
+.calculadora{
+	width: 450px;
+	height: 360px;
+	margin: 10px;
+	border:1px solid black; 
+}
+.calcnome{
+	width: 450px;
+	height: 40px;
+	margin-left: 10px;
+}

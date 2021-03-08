@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="projetos.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/5f9bb0e129.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="slide1()" >
+
+	<nav class="navegacao" >
+		
+		<div class="dm" >
+			<img src="fotos/DM.gif">
+		</div>
+
+		<div class="dmnavegacao" >
+		<a href="index.html">Principal</a>	
+		<a href="sobre.html">Sobre</a>	
+		<a href="projetos.html">Projetos</a>	
+		<a href="">Contato</a>	
+		<a href="">Dicas de Hardware</a>	
+		</div>
+
+		<div id="redessociais" >
+		<a href="https://www.facebook.com/diego.gomes.58555941/"> <i class="fab fa-facebook-square redessociais" ></i> </a>
+		<i class="fab fa-twitter redessociais"></i>
+		<i class="fab fa-linkedin redessociais"></i>
+
+		</div>
+
+	</nav>
+
+	<section id="banner" >
+		<img src="fotos/banner1.jpg" id="img" >	
+	</section>
+
+	<div class="email" >
+
+		<section class="enviaemail" >
+			<input type="email" placeholder="Envie seu email para contato" style="width: 300px; height: 30px;  " >
+			<button type="submit" style="margin-right: 15px; height: 30px; " >Enviar</button>
+		</section>
+		<section class="diegomorais" >
+			 <b> <p id="dm" >Diego Morais| Dev-front end</p> </b>
+		</section>	
+
+	</div >
+
+	<div class="projetos" >
+		<div class="projeto_foto" >
+			<img src="fotos/projetos.png">
+		</div>
+		<div class="calcnome">
+			<img src="fotos/calculadora.png">
+			
+		</div>
+		<div class="calculadora" >
+			<input  id="num1" type="text" placeholder="Digite o número:" style="margin: 15px 38px;" >
+			<input  id="num2" type="text" placeholder="Digite o número:" style="margin-top: 15px;">
+				<select id="operacao" style="margin-left: 150px;" >
+					<option value="">Escola a função</option>
+					<option value="1">Subtração</option>
+					<option value="2">Adição</option>
+					<option value="3">Multiplicação</option>
+					<option value="4">Divisão</option>
+				</select> <br>
+			<button style="margin: 5px 180px;"onclick="calcular()">Calcular</button>
+			Resultado: <input id="resultado" type="text" class="form-control" readonly/>
+		</div>
+	</div>
+
+	
+
+	<footer class="navegacao" >
+		
+		<span class="direitosreservados" > Todos os direitos reservados a Diego Morais| Areia Branca-RN</span>
+
+		<div class="dm" >
+			<img src="fotos/DM.gif">
+		</div>
+
+			
+		
+
+	</footer>
+
+
+<script  src="script.js"></script>
+
+</body>
+</html>
